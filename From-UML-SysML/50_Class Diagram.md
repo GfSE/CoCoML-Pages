@@ -16,7 +16,7 @@ As a very step, the following entities are defined:
 ... and the following relations:
 
 | UML | direction | SpecIF |
-| ---: | --- | :--- |
+| ---: | :---: | :--- |
 | uml:Generalization | inverted | SpecIF:Specialization |
 | uml:Composition | same | dcterms:hasPart |
 | uml:Aggregation | same | uml:Aggregation |
