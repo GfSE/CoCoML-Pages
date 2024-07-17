@@ -30,4 +30,4 @@ A directed association in UML means that only one side knows (can navigate to) t
 
 ## Example
 
-![UML Class Diagram](./assets/UML-SysML/Class_Diagram.png)
+![UML Class Diagram](../assets/images/UML-SysML/Class_Diagram.png)
