@@ -7,7 +7,7 @@ nav_order: 01
 
 # UML Class Diagram
 
-As a very step, the following entities are defined:
+As a very first step, the following entities are defined:
 
 | UML | SpecIF <dcterms:type> | OWL/RDF |
 | ---: | :--- | :--- |
@@ -21,6 +21,10 @@ As a very step, the following entities are defined:
 | uml:Composition | same | [dcterms:hasPart](https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-5AP5qdMeBeBnURVia2BWtTlTL3r) |  |
 | uml:Aggregation | same | [SpecIF:aggregates](https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-hmCfLTnuYbWWsE4qqo8zb8CwaE2) |  |
 | uml:Association | same | [SpecIF:isAssociatedWith](https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-H8KY2yoKNmBqEgSojfGX9oBclMN) |  |
+
+Next steps:
+- Attributes
+- Methods (Operations)
 
 ## Details
 
