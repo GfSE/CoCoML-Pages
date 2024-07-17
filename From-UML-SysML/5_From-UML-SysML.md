@@ -7,4 +7,4 @@ nav_order: 5
 
 # Authoring with UML/SysML
 
-The translation of selected UML/SysML features to SpecIF and further on to OWL/RDF.
+Translating selected features of UML/SysML to SpecIF and further on to OWL/RDF.
