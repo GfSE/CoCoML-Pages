@@ -3,6 +3,12 @@ title: Home
 layout: home
 ---
 
+# CoCoML
+
+A concise and consistent language for modeling (mechatronic) systems and software. UML/SysML offers a plethora of possibilities and as such cannot be mapped to other technical realms like DSL or OWL/RDF. CoCoML defines a practical subset of UML/SysML for bidirectional mapping with OWL/RDF. We invite you to discuss and improve the choices made! 
+
+# Using Just-the-docs
+
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
 If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
