@@ -18,7 +18,7 @@ nav_order: 998
 
 ## Data Protection and Privacy
 
-<embed src="https://gfse.org/en/privacy-notice.html" style="width:100%;height:10rem"/>
+<embed src="https://gfse.org/en/privacy-notice.html" style="width:100%;height:20rem"/>
 
 ## Disclaimer
 
