@@ -4,14 +4,23 @@ layout: default
 nav_order: 0
 ---
 
-# CoCoML
+# CoCoML - The Purpose
 
 A concise and consistent language for modeling (mechatronic) systems and software. 
 
 UML/SysML offers a plethora of possibilities and cannot be mapped genuinely to other technical realms like DSL or OWL/RDF. 
 CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF. 
+
+# CoCoML - The Way Forward
+
 In an intermediate step, the data is translated to [SpecIF](https://specif.de). From there, any data format for knowledge graphs can (and will) be created.
 
 We invite you to discuss and improve the choices made:
 - [Discussions](https://github.com/GfSE/CoCoML/discussions)
 - [Issues](https://github.com/GfSE/CoCoML/issues)
+
+Just now, in July 2024, are at the very beginning. But we are sure that with your help and a collaborative effort we will succeed.
+
+## Contact
+- Dr.-Ing. Oskar von Dungern via [e-mail](mailto:od@enso-managers.de), <a href="https://www.linkedin.com/in/odungern/" target="_blank">linkedIn</a> or <a href="https://github.com/odungern" target="_blank">GitHub</a>.
+
