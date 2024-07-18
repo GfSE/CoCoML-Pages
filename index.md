@@ -34,7 +34,7 @@ This is content inside a `<details>` dropdown.
 
 </details>-->
 
-<a href="https://github.com/GfSE/CoCoML/discussions/3">Do you have questions or ideas: Discuss the approach!</a>
+<a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Do you have questions or ideas: Discuss the approach!</a>
 
 ## Using SpecIF as Intermediate Format
 
@@ -49,15 +49,15 @@ This is content inside a `<details>` dropdown.
 
 </details>-->
 
-<a href="https://github.com/GfSE/CoCoML/discussions/4">Do you have questions or ideas: Discuss the approach!</a>
+<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Do you have questions or ideas: Discuss the approach!</a>
 
 ## Joint Effort
 
 Worldwide, there are many similar initiatives going on at moment. We do not want to re-invent the wheel: Do you know any other promising approach?
 
 Let us join forces:
-- [Discussions](https://github.com/GfSE/CoCoML/discussions)
-- [Issues](https://github.com/GfSE/CoCoML/issues)
+- <a href="https://github.com/GfSE/CoCoML/discussions" target="_blank">Discussions</a>
+- <a href="https://github.com/GfSE/CoCoML/issues" target="_blank">Issues</a>
 
 Just now, in July 2024, we are at the very beginning. But we are sure that with your help and a joint effort we will succeed.
 
