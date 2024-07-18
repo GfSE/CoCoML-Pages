@@ -41,3 +41,4 @@ The UML model transformed to SpecIF:
 - [UML Class Diagram](https://specif.de/apps/edit#import=../examples/CoCoML.specif.zip;view=doc;project=eee_1045467100313_135436_1;node=N-8264661645).
 - The [relations of 'General_Class'](https://specif.de/apps/edit#import=../examples/CoCoML.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-12061513685). 
 - Download the [SpecIF file](https://specif.de/examples/CoCoML.specif.zip) ... in case you want to take a closer look.
+- And here is the <a href="https://specif.de/apps-beta/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files.
