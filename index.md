@@ -25,7 +25,7 @@ This is content inside a `<details>` dropdown.
 Prof. Dr.-Ing. Siegfried Wendt, founding director of the Hasso-Plattner-Institute in Potsdam, and his collaborators have shown 
 that it possible to successfully describe system structure and behavior using three fundamental model elements, namely _Actor_, _State_ and _Event_. 
 The concept is extremely promising for integrating models of different notations and tools: Numerous practical examples in more than a decade have shown the power of the approach. 
-Therefore we propose the <a href="https://www.wiley.com/en-ie/Fundamental+Modeling+Concepts%3A+Effective+Communication+of+IT+Systems-p-9780470027103" target="_blank">Fundamental Modeling Concepts (FMC)</a> as an abstracting layer for system model integration.
+Therefore we propose the <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts (FMC)</a> as an abstracting layer for system model integration.
 
 <!--<details markdown="block">
 <summary>... read more</summary>
