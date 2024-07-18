@@ -12,6 +12,8 @@ As a very first step, the following entities are defined:
 | UML | SpecIF <dcterms:type> | OWL/RDF |
 | ---: | :--- | :--- |
 | uml:class | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-DC9wVTLyGWOOBEpHdGRXwrkGNWt" target="_blank">SpecIF:ModelElement</a> <uml:class> |  |
+| uml:Property | coming soon |  |
+| uml:Operation | coming soon |  |
 
 ... and the following relations:
 
@@ -22,9 +24,6 @@ As a very first step, the following entities are defined:
 | uml:Aggregation | same | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-hmCfLTnuYbWWsE4qqo8zb8CwaE2" target="_blank">SpecIF:aggregates</a> |  |
 | uml:Association | same | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-H8KY2yoKNmBqEgSojfGX9oBclMN" target="_blank">SpecIF:isAssociatedWith</a> |  |
 
-Next steps:
-- Attributes
-- Methods (Operations)
 
 ## Details
 
@@ -40,5 +39,9 @@ _Figure: UML Class Diagram_
 The UML model transformed to SpecIF:
 - [UML Class Diagram](https://specif.de/apps/edit#import=../examples/CoCoML.specif.zip;view=doc;project=eee_1045467100313_135436_1;node=N-8264661645).
 - The [relations of 'General_Class'](https://specif.de/apps/edit#import=../examples/CoCoML.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-12061513685). 
-- Download the [SpecIF file](https://specif.de/examples/CoCoML.specif.zip) ... in case you want to take a closer look.
-- And here is the <a href="https://specif.de/apps-beta/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files.
+- Download the [SpecIF file](https://specif.de/examples/CoCoML.specif.zip) ... in case you want to take a closer look: Isn't it much cleaner than an XMI file?
+- ... and here is the <a href="https://specif.de/apps-beta/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files.
+
+## Discussion
+
+<a href="https://github.com/GfSE/CoCoML/discussions/5" target="_blank">Any questions or ideas?</a>
