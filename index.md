@@ -19,8 +19,8 @@ We invite you to discuss and improve the choices made:
 - [Discussions](https://github.com/GfSE/CoCoML/discussions)
 - [Issues](https://github.com/GfSE/CoCoML/issues)
 
-Just now, in July 2024, are at the very beginning. But we are sure that with your help and a collaborative effort we will succeed.
+Just now, in July 2024, we are at the very beginning. But we are sure that with your help and a joint effort we will succeed.
 
 ## Contact
-- Dr.-Ing. Oskar von Dungern via [e-mail](mailto:od@enso-managers.de), <a href="https://www.linkedin.com/in/odungern/" target="_blank">linkedIn</a> or <a href="https://github.com/odungern" target="_blank">GitHub</a>.
+- Dr.-Ing. Oskar von Dungern via <a href="https://github.com/odungern" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/odungern/" target="_blank">linkedIn</a> or [e-mail](mailto:oskar.dungern@gfse.org).
 
