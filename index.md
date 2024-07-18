@@ -8,8 +8,8 @@ nav_order: 0
 
 A concise and consistent language for modeling (mechatronic) systems and software. 
 
-UML/SysML offers a plethora of possibilities and cannot be mapped genuinely to other technical realms like DSL or OWL/RDF. 
-CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF. 
+UML/SysML offers a plethora of possibilities and cannot be mapped genuinely to any other technical realm. 
+CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF and perhaps other formats (to be discussed). 
 
 # CoCoML - The Way Forward
 
