@@ -10,6 +10,7 @@ A concise and consistent language for modeling (mechatronic) systems and softwar
 
 UML/SysML offers a plethora of possibilities and cannot be mapped genuinely to any other technical realm. 
 CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF and perhaps other formats (to be discussed). 
+Other notations and languages such as FMC, BPMN and ArchiMate shall be added in future.
 
 <!--<details markdown="block">
 <summary>... read more</summary>
@@ -19,6 +20,14 @@ This is content inside a `<details>` dropdown.
 </details>-->
 
 # CoCoML - The Way Forward
+
+## Using an Agreed Vocabulary
+
+Among the concepts offered by UML/SysML we will select those deemed relevant for overarching system modeling.
+Different modeling languages use their own terminology - but share many concepts. 
+The final goal is to put system information from difference sources into a common context.  
+A common terminology is essential in all those cases.
+
 
 ## Using FMC for Abstraction
 

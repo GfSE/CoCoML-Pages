@@ -11,6 +11,6 @@ We invite you to discuss and improve the choices made:
 - [Issues](https://github.com/GfSE/CoCoML/issues)
 
 
-# Jekyll Template
+## Publishing
 
-A [Jekyll] site is created on Github Pages using: [Just-the-docs](https://github.com/just-the-docs/just-the-docs) with its [template](https://github.com/just-the-docs/just-the-docs-template). 
+The content of this repository is published at [CoCoML.de](https://cocoml.de) using Github Pages with Jekyll and its theme [Just-the-docs](https://github.com/just-the-docs/just-the-docs) and [template](https://github.com/just-the-docs/just-the-docs-template). 
