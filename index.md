@@ -1,6 +1,7 @@
 ---
 title: Introduction
 layout: default
+has_children: true
 nav_order: 0
 ---
 
@@ -21,12 +22,14 @@ This is content inside a `<details>` dropdown.
 
 # CoCoML - The Way Forward
 
-## Using an Agreed Vocabulary
+## Using a Controlled Vocabulary
 
 Among the concepts offered by UML/SysML we will select those deemed relevant for overarching system modeling.
 Different modeling languages use their own terminology - but share many concepts. 
 The final goal is to put system information from difference sources into a common context.  
 A common terminology is essential in all those cases.
+
+<a href="https://github.com/GfSE/CoCoML/discussions/6" target="_blank">Any questions or ideas?</a>
 
 
 ## Using FMC for Abstraction
@@ -43,7 +46,7 @@ This is content inside a `<details>` dropdown.
 
 </details>-->
 
-<a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Do you have questions or ideas: Discuss the approach!</a>
+<a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Any questions or ideas?</a>
 
 ## Using SpecIF as Intermediate Format
 
@@ -58,7 +61,7 @@ This is content inside a `<details>` dropdown.
 
 </details>-->
 
-<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Do you have questions or ideas: Discuss the approach!</a>
+<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
 
 ## Joint Effort
 
