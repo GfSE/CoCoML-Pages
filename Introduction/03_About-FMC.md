@@ -20,7 +20,7 @@ also to mechatronic systems including production sites and logistic chains.
 <a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Any questions or ideas?</a>
 
 Literature:
-[^1] Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>
-[^2] Knöpfel, A.; Gröne, B.; Tabeling, P.: <a href="https://www.wiley.com/en-ie/Fundamental+Modeling+Concepts%3A+Effective+Communication+of+IT+Systems-p-9780470027103" target="_blank">Fundamental Modeling Concepts: Effective Communication of IT Systems</a>, Wiley 2006.
+[^1]: Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>
+[^2]: Knöpfel, A.; Gröne, B.; Tabeling, P.: <a href="https://www.wiley.com/en-ie/Fundamental+Modeling+Concepts%3A+Effective+Communication+of+IT+Systems-p-9780470027103" target="_blank">Fundamental Modeling Concepts: Effective Communication of IT Systems</a>, Wiley 2006.
 
 
