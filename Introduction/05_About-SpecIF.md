@@ -7,10 +7,10 @@ nav_order: 05
 
 # About SpecIF
 
-The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. 
+The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a knowledge graph (aka property graph or semantic net). 
 Collaborators shall browse, search and audit engineering results in a common context. 
 Also, the exchange of model information between organizations and tools is facilitated. 
-SpecIF represents the visible, i.e. the diagrams and the text, as well as the semantics of system specifications. UTF-8 encoding is preferred.
+SpecIF represents the visible, i.e. the diagrams and the text, as well as the semantics of system information including system specifications.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
 
