@@ -25,6 +25,7 @@ Most useful for integrating system information is the FMC abstraction to 3 funda
 ## Meta-model
 
 The 'official' metamodel is published here:[^1][^2]
+
 <img src="../assets/images/FMC-Metamodel.gif" alt="FMC Metamodel"></img>.
 
 The fundamental model-element classes are not shown. The shown entities are classified as follows:
