@@ -14,7 +14,7 @@ SpecIF represents the visible, i.e. the diagrams and the text, as well as the se
 
 <a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
 
-Literature:
+## Literature
 
 1. Home: <a href="http://specif.de/en/" target="_blank">Specification Integration Facility (SpecIF)</a>.
 1. Github: <a href="https://github.com/GfSE/SpecIF" target="_blank">GfSE/SpecIF</a>.
