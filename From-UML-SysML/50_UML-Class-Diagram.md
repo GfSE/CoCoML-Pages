@@ -7,6 +7,8 @@ nav_order: 01
 
 # UML Class Diagram
 
+## Selecting UML Metaclasses
+
 As a very first step, the following entities are defined:
 
 | UML | SpecIF <dcterms:type> | OWL/RDF |
@@ -25,14 +27,14 @@ As a very first step, the following entities are defined:
 | uml:Association | same | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-H8KY2yoKNmBqEgSojfGX9oBclMN" target="_blank">SpecIF:isAssociatedWith</a> |  |
 
 
-## Details
+### Details
 
 A directed association in UML means that only one side knows (can navigate to) the other. In SpecIF like RDF every association is a statement with subject, predicate and object. When translating a UML/SysML class diagram to SpecIF and further on to OWL/RDF:
 - In case of a composition and aggregation, the class with the rhombus is the subject and the arrow is ignored. 
 - In case of a general association, the arrow is interpreted as the direction according to RDF. Thus, the arrow póints from subject to object. UML associations with zero or two arrow-heads will get an arbitrary direction.
 
 
-## Example
+### Example
 
 ![UML Class Diagram](../assets/images/UML-SysML/Class_Diagram.png)
 _Figure: UML Class Diagram_
@@ -44,7 +46,11 @@ Transformed to SpecIF:
 - ... and the corresponding <a href="https://specif.de/examples/CoCoML.specif.zip" target="_blank">SpecIF file</a> ... in case you want to take a closer look: Isn't it much cleaner than an XMI file?
 - Finally, here is the <a href="https://specif.de/apps-beta/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files. _(Please note that only the UML class diagram, SysML Block Definition Diagram and SysML Internal Block Diagram are translated as of now.)_
 
-
-## Discussion
+### Discussion
 
 <a href="https://github.com/GfSE/CoCoML/discussions/5" target="_blank">Any questions or ideas?</a>
+
+
+## Applying Terms of a Controlled Vocabulary
+
+## Applying Other Terms
