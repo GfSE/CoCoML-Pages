@@ -33,11 +33,17 @@ Second, there is interesting innovation in the context of knowledge-graphs and r
 to generate such data from an intermediate format.
 Finally, it is a fairly common and well proven approach to separate transformation in pre- and post-processing.
 
-<img class="my-align-right size-60" src="./assets/images/CoCoML-Development.svg" alt="" />
+<img src="./assets/images/CoCoML-Development.svg" alt="" />
 
 It is proposed to use the Specification Integration Facility ([SpecIF](https://specif.de)) as intermediate format.
 It is a generic and simple information model to build a Knowledge Graph (aka Property Graph) with typed nodes, edges and properties.
 [Schema and constraints](https://github.com/GfSE/SpecIF-Schema) are available to assure data quality.
+
+While there have been numerous publications on UML to OWL/RDF transformation (see <a href="./literature" target="_blank">literature</a>), 
+there has been little practical application to our knowledge. The mappings described in 
+<a href="https://www.omg.org/spec/MOF2RDF/" target="_blank">OMG: MOF to RDF Mapping (MOF2RDF)</a> and
+<a href="https://henrietteharmse.com/wp-content/uploads/2017/11/uml-class-diagram-to-owl-and-sroiq-reference.pdf" target="_blank">Harmse: UML Class Diagram to OWL and SROIQ Reference</a>
+are most promising and will be investigated with priority.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
 
@@ -55,7 +61,7 @@ A common terminology is essential in all those cases.
 Prof. Dr.-Ing. Siegfried Wendt, founding director of the Hasso-Plattner-Institute in Potsdam, and his collaborators have shown 
 that it possible to successfully describe system structure and behavior using three fundamental model elements, namely _Actor_, _State_ and _Event_. 
 The concept is extremely promising for integrating models of different notations and tools: Numerous practical examples in more than a decade have shown the power of the approach. 
-Therefore we propose the <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts (FMC)</a> as an abstracting layer for system model integration.
+Therefore we propose the <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts (FMC)</a> as an abstraction layer for system model integration.
 
 <!--<details markdown="block">
 <summary>... read more</summary>
