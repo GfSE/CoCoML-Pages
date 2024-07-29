@@ -24,6 +24,19 @@ This is content inside a `<details>` dropdown.
 
 # CoCoML - The Way Forward
 
+## Limit the Scope
+
+UML has been devised to specify software products. It is also used to generate software and thus offers many possibilities towards that end.
+However, much less detail is needed to communicate the overarching concept of a system. 
+So, the first step is to select the UML/SysML features to use for that purpose. 
+
+There will be three categories:
+1. Well defined feature to transform, e.g. _uml:Generalization_ or _uml:Composition_.
+2. Weakly defined feature with a name to transform, e.g. _uml:Association_. The name from a controlled vocabulary adds meaning.
+3. Feature not to transform. If used, a warning shall be issued.
+
+<a href="https://github.com/GfSE/CoCoML/discussions/5" target="_blank">Any questions or ideas?</a>
+
 ## Using an Intermediate Format
 
 The transformation shall be done in two steps using an intermediate, neutral format. 
@@ -53,6 +66,10 @@ Among the concepts offered by UML/SysML we will select those deemed relevant for
 Different modeling languages use their own terminology - but share many concepts. 
 The final goal is to put system information from difference sources into a common context.  
 A common terminology is essential in all those cases.
+
+An example: A _bpmn:Lane_ and a _uml:Actor_ both represent a role with responsibility for certain activities.
+The resulting ontology (resp. knowledge graph) shall represent both in the same way. 
+And if used with the same name, they can be considered the same and combined.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/6" target="_blank">Any questions or ideas?</a>
 
