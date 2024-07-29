@@ -5,6 +5,8 @@ has_children: true
 nav_order: 0
 ---
 
+<!-- templates <a href="" target="_blank"></a> <img class="my-align-right size-60" src="./assets/images/Home/" alt="" /> -->
+
 # CoCoML - The Purpose
 
 A concise and consistent language for modeling (mechatronic) systems and software. 
@@ -22,6 +24,23 @@ This is content inside a `<details>` dropdown.
 
 # CoCoML - The Way Forward
 
+## Using an Intermediate Format
+
+The transformation shall be done in two steps using an intermediate, neutral format. 
+First, it is intended to not only transform UML/SysML models, but also other MOF-based modeling notations like BPMN
+and potentially others.
+Second, there is interesting innovation in the context of knowledge-graphs and related data formats. It will be easier 
+to generate such data from an intermediate format.
+Finally, it is a fairly common and well proven approach to separate transformation in pre- and post-processing.
+
+<img class="my-align-right size-60" src="./assets/images/CoCoML-Development.svg" alt="" />
+
+It is proposed to use the Specification Integration Facility ([SpecIF](https://specif.de)) as intermediate format.
+It is a generic and simple information model to build a Knowledge Graph (aka Property Graph) with typed nodes, edges and properties.
+[Schema and constraints](https://github.com/GfSE/SpecIF-Schema) are available to assure data quality.
+
+<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
+
 ## Using a Controlled Vocabulary
 
 Among the concepts offered by UML/SysML we will select those deemed relevant for overarching system modeling.
@@ -30,7 +49,6 @@ The final goal is to put system information from difference sources into a commo
 A common terminology is essential in all those cases.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/6" target="_blank">Any questions or ideas?</a>
-
 
 ## Using FMC for Abstraction
 
@@ -48,20 +66,6 @@ This is content inside a `<details>` dropdown.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Any questions or ideas?</a>
 
-## Using SpecIF as Intermediate Format
-
-The Specification Integration Facility ([SpecIF](https://specif.de)) is an information model to build a Knowledge Graph (aka Property Graph) with typed nodes, edges and properties.
-[Schema and constraints](https://github.com/GfSE/SpecIF-Schema) are available to assure data quality.
-In an intermediate step, model data of different notation and tools is translated to SpecIF. From there, any data format for knowledge graphs can (and will) be created.
-
-<!--<details markdown="block">
-<summary>... read more</summary>
-
-This is content inside a `<details>` dropdown.
-
-</details>-->
-
-<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
 
 ## Joint Effort
 
