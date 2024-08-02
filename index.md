@@ -9,11 +9,18 @@ nav_order: 0
 
 # CoCoML - The Purpose
 
-A concise and consistent language for modeling (mechatronic) systems and software. 
+A concise and consistent language for modeling (mechatronic) systems and software: 
+- Communicate the structure and behavior between the participants in its lifecycle;
+- Bridge the gap between (engineering) disciplines and organizations.
 
-UML/SysML offers a plethora of possibilities and cannot be mapped genuinely to any other technical realm. 
+UML/SysML offers a plethora of possibilities, is semantically vague to a certain extent and thus cannot be mapped genuinely to any other technical realm. 
 CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF and perhaps other formats (to be discussed). 
 Other notations and languages such as FMC, BPMN and ArchiMate shall be added in future.
+
+CoCoML is one aspect of <a href="https://github.com/GfSE/CASCaDE-Layered-Ontology" target="_blank">CASCaDE</a>, 
+an initiative to facilitate collaboration in the product lifecycle from conception to retirement - similarly to BIM in the construction industry. 
+Goal is to submit a standard candidate at OMG - addressed at a Request for Proposals yet to be prepared and issued. 
+While CASCaDE aims at the whole product lifecycle, CoCoML addresses the early phases of systems engineering and in particular UML/SysML.
 
 <!--<details markdown="block">
 <summary>... read more</summary>
@@ -26,18 +33,19 @@ This is content inside a `<details>` dropdown.
 
 ## Limit the Scope
 
-UML has been devised to specify software products. It is also used to generate software and thus offers many possibilities towards that end.
+UML has been devised to specify software products. It is also used to generate software and thus offers many language features towards that end.
+SysML is a UML Profile and as such shares many characteristics.
 However, much less detail is needed to communicate the overarching concept of a system. 
 So, the first step is to select the UML/SysML features to use for that purpose. 
 
-There will be three categories:
+Three categories are proposed:
 1. Well defined feature to transform, e.g. _uml:Generalization_ or _uml:Composition_.
 2. Weakly defined feature with a name to transform, e.g. _uml:Association_. The name from a controlled vocabulary adds meaning.
 3. Feature not to transform. If used, a warning shall be issued.
 
-<a href="https://github.com/GfSE/CoCoML/discussions/5" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML/discussions/7" target="_blank">Any questions or ideas?</a>
 
-## Using an Intermediate Format
+## Use an Intermediate Format
 
 The transformation shall be done in two steps using an intermediate, neutral format. 
 First, it is intended to not only transform UML/SysML models, but also other MOF-based modeling notations like BPMN
@@ -60,7 +68,7 @@ are most promising and will be investigated with priority.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
 
-## Using a Controlled Vocabulary
+## Use a Controlled Vocabulary
 
 Among the concepts offered by UML/SysML we will select those deemed relevant for overarching system modeling.
 Different modeling languages use their own terminology - but share many concepts. 
@@ -73,7 +81,7 @@ And if used with the same name, they can be considered the same and combined.
 
 <a href="https://github.com/GfSE/CoCoML/discussions/6" target="_blank">Any questions or ideas?</a>
 
-## Using FMC for Abstraction
+## Use FMC for Abstraction
 
 Prof. Dr.-Ing. Siegfried Wendt, founding director of the Hasso-Plattner-Institute in Potsdam, and his collaborators have shown 
 that it possible to successfully describe system structure and behavior using three fundamental model elements, namely _Actor_, _State_ and _Event_. 

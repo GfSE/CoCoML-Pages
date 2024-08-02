@@ -1,13 +1,15 @@
 ---
 title: "CoCoML Vocabulary"
 layout: default
-parent: Introduction
-nav_order: 01
+nav_order: 03
 ---
 
 # CoCoML - Controlled Vocabulary
 
-Among the concepts offered by UML/SysML we will select those deemed relevant for overarching system modeling.
+{: .highlight }
+_Note: This vocabulary is the very beginning and will be complemented step by step following the discussion in the interested community._
+
+Among the concepts offered by UML/SysML those deemed relevant for overarching system modeling will be selected.
 Different modeling languages use their own terminology - but share many concepts. 
 The final goal is to put system information from difference sources into a common context.  
 A common terminology is essential in all those cases.
