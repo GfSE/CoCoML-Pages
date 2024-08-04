@@ -18,7 +18,8 @@ CoCoML shall define a practical and formally well defined subset of UML/SysML fo
 Other notations and languages such as FMC, BPMN and ArchiMate shall be added in future.
 
 CoCoML is one aspect of <a href="https://github.com/GfSE/CASCaDE-Layered-Ontology" target="_blank">CASCaDE</a>, 
-an initiative to facilitate collaboration in the product lifecycle from conception to retirement - similarly to BIM in the construction industry. 
+an initiative to facilitate collaboration in the product lifecycle from conception to retirement - similarly to 
+<a href="https://en.wikipedia.org/wiki/Building_information_modeling" target="_blank">Building Information Modeling (BIM)</a> in the construction industry. 
 Goal is to submit a standard candidate at OMG - addressed at a Request for Proposals yet to be prepared and issued. 
 While CASCaDE aims at the whole product lifecycle, CoCoML addresses the early phases of systems engineering and in particular UML/SysML.
 
@@ -105,6 +106,9 @@ Worldwide, there are many similar initiatives going on at moment. We do not want
 Let us join forces:
 - <a href="https://github.com/GfSE/CoCoML/discussions" target="_blank">Discussions</a>
 - <a href="https://github.com/GfSE/CoCoML/issues" target="_blank">Issues</a>
+
+We will establish a 3-head technical committee to summarize the discussions and to take wise decisions.
+The decision guideline will be consistency first, conciseness second. So-called "design by committee" incorporating any and every proposal shall be avoided.
 
 Just now, in July 2024, we are at the very beginning. But we are sure that with your help and a joint effort we will succeed.
 
