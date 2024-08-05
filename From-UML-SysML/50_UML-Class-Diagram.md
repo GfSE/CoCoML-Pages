@@ -14,11 +14,11 @@ _Note: This is the very beginning of the discussion and in no way settled or com
 
 The following entities are selected for transformation:
 
-| UML | SpecIF <dcterms:type> | OWL/RDF |
+| UML | SpecIF | OWL/RDF |
 | ---: | :--- | :--- |
-| uml:Class | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-DC9wVTLyGWOOBEpHdGRXwrkGNWt" target="_blank">SpecIF:ModelElement</a> <uml:Class> |  |
-| uml:Property | coming soon |  |
-| uml:Operation | coming soon |  |
+| uml:Class | SpecIF:ModelElement |  |
+| uml:Property | FMC:State |  |
+| uml:Operation | FMC:Actor |  |
 
 ... and the following relations:
 
