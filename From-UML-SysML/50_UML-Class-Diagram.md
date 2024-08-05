@@ -39,21 +39,27 @@ A directed association in UML means that only one side knows (can navigate to) t
 
 ### Example
 
+The following UML Class Diagram uses UML native metaclasses only:
+
 ![UML Class Diagram](../assets/images/UML-SysML/UML_Class_Diagram_(native).png)
 _Figure: UML Class Diagram using native metaclasses_
+
+#### Transform first to SpecIF
+
+The UML Class Diagram is first transformed to SpecIF. The relations of the element _General_Class_ are shown next. The names at the edges are the vocabulary terms _SpecIF:shows_, _dcterms:hasPart_, _SpecIF:isAssociatedWith_ and _SpecIF:isSpecializationOf_ translated according to the browser language; English in this case.
 
 ![SpecIF Relations of element General_Class on UML Class Diagram](../assets/images/UML-SysML/SpecIF-Relations_of_UML_Class_Diagram_(native).png)
 _Figure: SpecIF Relations of element General_Class on UML Class Diagram_
 
-Transforming first to SpecIF:
-- An example <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=doc;project=eee_1045467100313_135436_1;node=N-8264661645" target="_blank">UML Class Diagram</a>.
-- The <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-12061513685" target="_blank">relations of 'General_Class'</a>. 
-- Download the <a href="CoCoML-UML-Class Diagram](https://github.com/GfSE/CoCoML-Verification-and-Validation/1_Source/CoCoML-UML-Class-Diagram.mdzip" target="_blank">Cameo model file</a>,
-- the corresponding <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/3_SpecIF/CoCoML-Class-Diagram.specif.zip" target="_blank">SpecIF file</a> ... in case you want to take a closer look: Isn't it much cleaner than an XMI file?
-- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/9_DOCX/CoCoML-Class-Diagram.docx" target="_blank">WORD(R) file</a>.
+The files can be examined:
+- The <a href="CoCoML-UML-Class Diagram](https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/1_Source/CoCoML-UML-Class-Diagram.mdzip" target="_blank">Cameo model file</a>,
+- the example <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=doc;project=eee_1045467100313_135436_1;node=N-8264661645" target="_blank">UML Class Diagram</a> transformed to SpecIF,
+- the <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-12061513685" target="_blank">relations of 'General_Class'</a>, 
+- the corresponding <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/3_SpecIF/CoCoML-Class-Diagram.specif.zip" target="_blank">SpecIF file</a> ... in case you want to take a closer look: Isn't it much cleaner than an XMI file?
+- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/9_DOCX/CoCoML-Class-Diagram.docx" target="_blank">WORD(R) file</a>.
 - Finally, here is the <a href="https://specif.de/apps-beta/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files. _(Please note that only the UML class diagram, SysML Block Definition Diagram and SysML Internal Block Diagram are translated as of now.)_
 
-Transforming further to OWL/RDF:
+#### Transform further to OWL/RDF
 
 ... _coming soon using OMG's MOF2RDF_
 
