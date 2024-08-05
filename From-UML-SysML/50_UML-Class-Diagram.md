@@ -42,14 +42,15 @@ A directed association in UML means that only one side knows (can navigate to) t
 ![UML Class Diagram](../assets/images/UML-SysML/UML_Class_Diagram_(native).png)
 _Figure: UML Class Diagram using native metaclasses_
 
-![SpecIF Relations of element General_Class on UML Class Diagram](../assets/images/SpecIF-Relations_of_UML_Class_Diagram_(native).png)
+![SpecIF Relations of element General_Class on UML Class Diagram](../assets/images/UML-SysML/SpecIF-Relations_of_UML_Class_Diagram_(native).png)
 _Figure: SpecIF Relations of element General_Class on UML Class Diagram_
 
 Transforming first to SpecIF:
 - An example <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=doc;project=eee_1045467100313_135436_1;node=N-8264661645" target="_blank">UML Class Diagram</a>.
 - The <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-12061513685" target="_blank">relations of 'General_Class'</a>. 
-- Download the <a href="CoCoML-UML-Class Diagram](https://github.com/GfSE/CoCoML/V+V/1_Source/CoCoML-UML-Class-Diagram.mdzip" target="_blank">Cameo model file</a>
-- ... and the corresponding <a href="https://github.com/GfSE/CoCoML/V+V/CoCoML-Class-Diagram.specif.zip" target="_blank">SpecIF file</a> ... in case you want to take a closer look: Isn't it much cleaner than an XMI file?
+- Download the <a href="CoCoML-UML-Class Diagram](https://github.com/GfSE/CoCoML-Verification-and-Validation/1_Source/CoCoML-UML-Class-Diagram.mdzip" target="_blank">Cameo model file</a>,
+- the corresponding <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/3_SpecIF/CoCoML-Class-Diagram.specif.zip" target="_blank">SpecIF file</a> ... in case you want to take a closer look: Isn't it much cleaner than an XMI file?
+- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/9_DOCX/CoCoML-Class-Diagram.docx" target="_blank">WORD(R) file</a>.
 - Finally, here is the <a href="https://specif.de/apps-beta/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files. _(Please note that only the UML class diagram, SysML Block Definition Diagram and SysML Internal Block Diagram are translated as of now.)_
 
 Transforming further to OWL/RDF:
