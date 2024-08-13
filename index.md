@@ -42,7 +42,7 @@ So, the first step is to select the UML/SysML features to use for that purpose.
 Three categories are proposed:
 1. Well defined feature to transform, e.g. _uml:Class_, _uml:Generalization_ or _uml:Composition_.
 2. Weakly defined feature with a name to transform, where the name from a controlled vocabulary defines the meaning. 
-For example, an entity with type _uml:Association_ and a name _bpmn:dataInputAssociation_ 
+For example, an association with type _uml:Association_ and a name _bpmn:dataInputAssociation_ 
 is interpreted as a reading relationship (between a task and a data object).
 3. Feature not to transform. If used, a warning shall be issued. 
 
