@@ -2,8 +2,8 @@ title: CoCoML
 description: The documentation for a concise and consistent modeling language for (mechatronic) systems and software.
 theme: just-the-docs
 
-url: https://gfse.github.io/CoCoML
+url: https://gfse.github.io/CoCoML-Pages
 heading_anchors: true
 
 aux_links:
-  Repo: https://github.com/gfse/CoCoML
+  Repo: https://github.com/GfSE/CoCoML-Pages
