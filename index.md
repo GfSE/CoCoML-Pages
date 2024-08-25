@@ -15,7 +15,7 @@ A concise and consistent language for modeling (mechatronic) systems and softwar
 
 UML/SysML offers a plethora of possibilities, is semantically vague to a certain extent and thus cannot be mapped genuinely to any other technical realm. 
 CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF and perhaps other formats (to be discussed). 
-Other notations and languages such as FMC, BPMN and ArchiMate shall be added in future.
+Other notations and languages such as FMC, BPMN and ArchiMate shall be considered in future.
 
 CoCoML is one aspect of <a href="https://github.com/GfSE/CASCaDE-Layered-Ontology" target="_blank">CASCaDE</a>, 
 an initiative to facilitate collaboration in the product lifecycle from conception to retirement - similarly to 
@@ -37,14 +37,14 @@ This is content inside a `<details>` dropdown.
 UML has been devised to specify software products. It is also used to generate software and thus offers many language features towards that end.
 SysML is a UML Profile and as such shares many characteristics.
 However, much less detail is needed to communicate the overarching concept of a system. 
-So, the first step is to select the UML/SysML features to use for that purpose. 
+So, the first step is to select the UML and SysML elements to use for that purpose. 
 
 Three categories are proposed:
-1. Well defined feature to transform, e.g. _uml:Class_, _uml:Generalization_ or _uml:Composition_.
-2. Weakly defined feature with a name to transform, where the name from a controlled vocabulary defines the meaning. 
+1. Well defined element to transform, e.g. _uml:Class_, _uml:Generalization_ or _uml:Composition_.
+2. Weakly defined element to transform, where *the name* from a controlled vocabulary defines the meaning. 
 For example, an association with type _uml:Association_ and a name _bpmn:dataInputAssociation_ 
-is interpreted as a reading relationship (between a task and a data object).
-3. Feature not to transform. If used, a warning shall be issued. 
+is understood as a reading relationship (between a task and a data object).
+3. Element not to transform. If used, a warning shall be issued. 
 
 <a href="https://github.com/GfSE/CoCoML/discussions/7" target="_blank">Any questions or ideas?</a>
 
@@ -89,7 +89,8 @@ And if used with the same name, they can be considered the same and combined.
 Prof. Dr.-Ing. Siegfried Wendt, founding director of the Hasso-Plattner-Institute in Potsdam, and his collaborators have shown 
 that it possible to successfully describe system structure and behavior using three fundamental model elements, namely _Actor_, _State_ and _Event_. 
 The concept is extremely promising for integrating models of different notations and tools: Numerous practical examples in more than a decade have shown the power of the approach. 
-Therefore we propose the <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts (FMC)</a> as an abstraction layer for system model integration.
+Therefore we propose the <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts (FMC)</a> 
+as an abstraction layer for (preferably automatic) system model integration.
 
 <!--<details markdown="block">
 <summary>... read more</summary>

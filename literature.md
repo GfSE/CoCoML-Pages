@@ -15,6 +15,7 @@ nav_order: 970
 1. <a href="https://www.omg.org/spec/COMMONS" target="_blank">Commons Ontology Library</a>
 1. <a href="https://www.omg.org/spec/MVF" target="_blank">Multiple Vocabulary Facility (MVF)</a>
 1. OMG: <a href="https://www.omg.org/spec/UML/2.5.1/PDF" target="_blank">OMG® Unified Modeling Language® (OMG UML®) Version 2.5.1</a>
+1. OMG: <a href="http://www.omg.org/spec/FUML/" target="_blank">Semantics of a Foundational Subset for Executable UML Models (FUML™)</a>
 1. OMG: <a href="https://www.omg.org/spec/SysML/1.6/PDF" target="_blank">OMG® System Modeling Language® (OMG SysML®) Version 1.6</a>
 1. OMG: <a href="https://www.omg.org/spec/MOF2RDF/" target="_blank">MOF to RDF Mapping (MOF2RDF)</a>
 1. FMC Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>

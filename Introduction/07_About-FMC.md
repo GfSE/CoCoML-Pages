@@ -2,7 +2,7 @@
 title: "About FMC"
 layout: default
 parent: Introduction
-nav_order: 03
+nav_order: 07
 ---
 
 # About FMC
@@ -19,7 +19,8 @@ also to mechatronic systems including production sites and logistic chains.
 
 FMC has been developed over years and consequently there are several explanations from different perspectives. 
 Most useful for integrating system information is the FMC abstraction to 3 fundamental model element classes, namely _FMC:Actor_, _FMC:State_ and _FMC:Event_.[^3]
-_Please note that SpecIF entity names have changed since to better conform with the <a href="https://www.dublincore.org/" target="_blank">DCMI</a> concepts, but the structure of the metamodel is unchanged._
+
+_Please note that SpecIF entity names used in early publications have changed since to better conform with the <a href="https://www.dublincore.org/" target="_blank">DCMI</a> concepts, but the structure of the metamodel is unchanged._
 
 <a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Any questions or ideas?</a>
 
