@@ -73,6 +73,25 @@ The files can be examined:
 
 ... _coming soon_
 
+### Example
+
+The following UML Class Diagram uses ....:
+
+![UML Class Diagram](../assets/images/UML-SysML/Class-Diagram_with_Stereotypes.png)
+_Figure: UML Class Diagram using native metaclasses_
+
+#### Transform first to SpecIF
+
+
+![SpecIF Relations](../assets/images/UML-SysML/SpecIF-Relations_of_Class-Diagram_with_stereotypes.png)
+_Figure: SpecIF Relations of element General_Class on UML Class Diagram_
+
+
+#### Transform further to OWL/RDF
+
+... _coming soon using OMG's MOF2RDF_
+
+
 ## Adding meaning using Other Terms
 
 ... _coming soon_
