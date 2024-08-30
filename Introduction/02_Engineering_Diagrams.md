@@ -7,7 +7,7 @@ nav_order: 02
 
 # Engineering Diagrams
 
-What is the difference between a diagram of an electronic circuit and a, let's say, SysML block diagram?
+What is the difference between a diagram of an electronic circuit and, let's say, a SysML block diagram?
 
 <img class="size-40 my-align-right" src="../assets/images/Schaltplan.gif" alt="Elektronik Schaltplan" />
 <!-- <img class="size-40 my-align-right" src="../assets/images/uml-sysml-ibd-02.png" alt="SysML IBD" /> -->
@@ -19,7 +19,7 @@ Consequently, such a diagram must be accompanied with additional information to 
 The goal of CoCoML is to define a formally sound language to describe the concept of mechatronic devices and software. 
 UML and SysML elements shall be used as graphic notation. So any CoCoML diagram shall conform with UML, but obviously not vice-versa.
 
-fUML<super>[2]</super> defines a subset to allow model execution. It will be examined whether this approach is viable for the goals of CoCoML. 
+fUML<sup>[2]</sup> defines a subset of UML to allow model execution. It will be examined whether approach and results are viable for the goals of CoCoML. 
 
 <!--
 <a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>

@@ -10,7 +10,7 @@ nav_order: 01
 {: .highlight }
 _Note: This is the very beginning of the discussion and in no way settled or complete._
 
-## Selecting native UML Metaclasses
+## Transforming native UML Metaclasses
 
 The following entities are selected for transformation:
 
@@ -41,7 +41,7 @@ A directed association in UML means that only one side knows (can navigate to) t
 
 The following UML Class Diagram uses UML native metaclasses only:
 
-![UML Class Diagram](../assets/images/UML-SysML/UML_Class_Diagram_(native).png)
+![UML Class Diagram](../assets/images/UML-SysML/Class-Diagram_(native).png)
 _Figure: UML Class Diagram using native metaclasses_
 
 #### Transform first to SpecIF
