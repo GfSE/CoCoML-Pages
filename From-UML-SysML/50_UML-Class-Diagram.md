@@ -12,7 +12,7 @@ _Note: This is the very beginning of the discussion and in no way settled or com
 
 ## Transforming native UML Metaclasses
 
-The following entities are selected for transformation:
+The following UML elements are selected for transformation:
 
 | UML | SpecIF | OWL/RDF | local [en] |
 | ---: | :--- | :--- | :--- |
@@ -75,10 +75,10 @@ Examining the files and rigorously reviewing the approach is greatly appreciated
 ## Adding meaning using Ontology Terms
 
 Two ways to add meaning to weakly defined model-elements are proposed in the example below:
-- by stereotype: In the example below, two classes have a stereotype of an imported profile 'RFLP' defining four levels of system specification, namely _Requirement_, _Function_, _Logical_ and _Physical_. In the example it is just used as an additional information/definition as a value of property typed _dcterms:type_.
+- by stereotype: In the example below, two classes have a stereotype of an imported profile 'RFLP' defining four levels of system specification, namely _Requirement_, _Function_, _Logical_ and _Physical_. In the example it is just an additional information/definition as a value of property typed _dcterms:type_.
 - by generalization: Both concrete model elements (in fact 'instances') specialize a class named with an ontology term. As a consequence they are not an instance of uml:Class, but of _IREB:Requirement_ resp. _FMC:Actor_.
 
-The following entities are selected for transformation:
+The following UML elements are selected for transformation, where a generalization and/or stereotype adds the meaning:
 
 | UML | Generalization | Stereotype | SpecIF resource class | OWL/RDF | local [en] | Comment |
 | ---: | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -94,6 +94,9 @@ Adding meaning to associations is simpler:
 | uml:Association | oslc_rm:satisfies | oslc_rm:satisfies |  | satisfies | _oslc_rm:satisfies_ is an ontology term |
 
 This is a choice to discuss: <a href="https://github.com/GfSE/CoCoML-Pages/discussions/6" target="_blank">Any issues or ideas?</a>
+
+To summarize: There is a defined set of UML elements and a defined set of ontology terms to create a model with exact semantics. 
+It is claimed that this is a formal subset of UML, which must be proven by creating an equivalent EBNF representation or DSL, for example.
 
 ### Example
 

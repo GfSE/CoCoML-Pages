@@ -51,8 +51,9 @@ is understood as a reading relationship (between a task and a data object).
 ## Use an Intermediate Format
 
 The transformation shall be done in two steps using an intermediate, neutral format. 
-First, it is intended to not only transform UML/SysML models, but also other MOF-based modeling notations like BPMN
-and potentially others.
+The model in the neutral format shall be 'formal' such that it can be expressed with a Domain-Specific language (DSL), for example.
+First, it is intended to transform UML/SysML models, but later other MOF-based modeling notations like BPMN
+and potentially others may follow.
 Second, there is interesting innovation in the context of knowledge-graphs and related data formats. It will be easier 
 to generate such data from an intermediate format.
 Finally, it is a fairly common and well proven approach to separate transformation in pre- and post-processing.
