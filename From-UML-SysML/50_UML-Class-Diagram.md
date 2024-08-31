@@ -17,8 +17,8 @@ The following UML elements are selected for transformation:
 | UML | SpecIF | OWL/RDF | local [en] |
 | ---: | :--- | :--- | :--- |
 | uml:Class | SpecIF:ModelElement |  | Model Element |
-| uml:Property | FMC:State |  | Property |
-| uml:Operation | FMC:Actor |  | Operation |
+| uml:Operation | FMC:Actor |  | Actor |
+| uml:Property | FMC:State |  | State |
 
 ... and the following relations:
 
