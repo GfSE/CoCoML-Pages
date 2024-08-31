@@ -16,7 +16,7 @@ A common terminology is essential in all those cases.
 
 Of course, established terms shall be re-used whenever possible, for example from the <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank">Dublin Core Metadata Initiative (DCMI)</a> or <a href="https://schema.org/" target="_blank">Schema.org</a>.
 
-<a href="https://github.com/GfSE/CoCoML/discussions/6" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/6" target="_blank">Any questions or ideas?</a>
 
 | Concept | Term Name | Type of Term | Description |
 | :--- | :--- | :--- | :--- |

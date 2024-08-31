@@ -22,7 +22,7 @@ Most useful for integrating system information is the FMC abstraction to 3 funda
 
 _Please note that SpecIF entity names used in early publications have changed since to better conform with the <a href="https://www.dublincore.org/" target="_blank">DCMI</a> concepts, but the structure of the metamodel is unchanged._
 
-<a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/3" target="_blank">Any questions or ideas?</a>
 
 ## Meta-model
 

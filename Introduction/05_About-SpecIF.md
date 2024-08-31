@@ -12,7 +12,7 @@ Collaborators shall browse, search and audit engineering results in a common con
 Also, the exchange of model information between organizations and tools is facilitated. 
 SpecIF represents the visible, i.e. the diagrams and the text, as well as the semantics of system information including system specifications.
 
-<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/4" target="_blank">Any questions or ideas?</a>
 
 ## Literature
 

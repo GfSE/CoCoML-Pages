@@ -46,7 +46,7 @@ For example, an association with type _uml:Association_ and a name _bpmn:dataInp
 is understood as a reading relationship (between a task and a data object).
 3. Element not to transform. If used, a warning shall be issued. 
 
-<a href="https://github.com/GfSE/CoCoML/discussions/7" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/7" target="_blank">Any questions or ideas?</a>
 
 ## Use an Intermediate Format
 
@@ -69,7 +69,7 @@ there has been little practical application to our knowledge. The mappings descr
 <a href="https://henrietteharmse.com/wp-content/uploads/2017/11/uml-class-diagram-to-owl-and-sroiq-reference.pdf" target="_blank">Harmse: UML Class Diagram to OWL and SROIQ Reference</a>
 are most promising and will be investigated with priority.
 
-<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/4" target="_blank">Any questions or ideas?</a>
 
 ## Use a Controlled Vocabulary
 
@@ -82,7 +82,7 @@ An example: A _bpmn:Lane_ and a _uml:Actor_ both represent a role with responsib
 The resulting ontology (resp. knowledge graph) shall represent both in the same way. 
 And if used with the same name, they can be considered the same and combined.
 
-<a href="https://github.com/GfSE/CoCoML/discussions/6" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/6" target="_blank">Any questions or ideas?</a>
 
 ## Use FMC for Abstraction
 
@@ -99,7 +99,7 @@ This is content inside a `<details>` dropdown.
 
 </details>-->
 
-<a href="https://github.com/GfSE/CoCoML/discussions/3" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/3" target="_blank">Any questions or ideas?</a>
 
 
 ## Joint Effort

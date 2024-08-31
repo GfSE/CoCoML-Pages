@@ -22,7 +22,7 @@ UML and SysML elements shall be used as graphic notation. So any CoCoML diagram 
 fUML<sup>[2]</sup> defines a subset of UML to allow model execution. It will be examined whether approach and results are viable for the goals of CoCoML. 
 
 <!--
-<a href="https://github.com/GfSE/CoCoML/discussions/4" target="_blank">Any questions or ideas?</a>
+<a href="https://github.com/GfSE/CoCoML-Pages/discussions/4" target="_blank">Any questions or ideas?</a>
 -->
 
 ## Literature
