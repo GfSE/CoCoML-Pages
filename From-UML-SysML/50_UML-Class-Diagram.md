@@ -51,8 +51,8 @@ _Figure: UML Class Diagram using native metaclasses_
 
 The UML Class Diagram is first transformed to SpecIF. The relations of the element _General_Class_ are shown next. The names at the edges are the vocabulary terms _SpecIF:shows_, _dcterms:hasPart_, _SpecIF:isAssociatedWith_ and _SpecIF:isSpecializationOf_ translated according to the browser language; English in this case.
 
-![SpecIF Relations of element General_Class on UML Class Diagram](../assets/images/UML-SysML/SpecIF-Relations_of_Class-Diagram_(native).png)
-_Figure: SpecIF Relations of element General_Class on UML Class Diagram_
+![SpecIF Statements of element General_Class on UML Class Diagram](../assets/images/UML-SysML/SpecIF-Statements_of_Class-Diagram_(native).png)
+_Figure: SpecIF Statements of element General_Class on UML Class Diagram_
 
 Examining the files and rigorously reviewing the approach is greatly appreciated:
 - The Cameo model file <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/1_Source/CoCoML-Class-Diagram.mdzip" target="_blank">CoCoML Class-Diagram</a>,
@@ -104,8 +104,8 @@ _Figure: UML Class Diagram using ontology terms_
 
 #### Transform first to SpecIF
 
-![SpecIF Relations](../assets/images/UML-SysML/SpecIF-Relations_of_Class-Diagram_with_Stereotypes.png)
-_Figure: SpecIF Relations of element General_Class on UML Class Diagram_
+![SpecIF Statements of element Heat_Pump on UML Class Diagram using ontology terms](../assets/images/UML-SysML/SpecIF-Statements_of_Class-Diagram_with_Stereotypes.png)
+_Figure: SpecIF Statements of element Heat_Pump on UML Class Diagram using ontology terms_
 
 Examining the files and rigorously reviewing the approach is greatly appreciated:
 - The Cameo model file <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/1_Source/CoCoML-Class-Diagram-with-Stereotypes.mdzip" target="_blank">CoCoML Class-Diagram using ontology terms</a>,
@@ -122,5 +122,5 @@ Examining the files and rigorously reviewing the approach is greatly appreciated
 
 ## Adding meaning using Other Terms
 
-... _coming soon_
+... isn't recommended.
 
