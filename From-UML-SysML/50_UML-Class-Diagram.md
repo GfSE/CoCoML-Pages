@@ -55,11 +55,11 @@ The UML Class Diagram is first transformed to SpecIF. The relations of the eleme
 _Figure: SpecIF Statements of element General_Class on UML Class Diagram_
 
 Examining the files and rigorously reviewing the approach is greatly appreciated:
-- The Cameo model file <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/1_Source/CoCoML-Class-Diagram.mdzip" target="_blank">CoCoML Class-Diagram</a>,
+- The Cameo model file <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/tree/main/Class_Diagram/1_Source/CoCoML-Class-Diagram.mdzip" target="_blank">CoCoML Class-Diagram</a>,
 - the example <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip" target="_blank">UML Class Diagram</a> transformed to SpecIF,
 - the <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-12061513685" target="_blank">relations of 'General_Class'</a>, 
 - the corresponding <a href="https://specif.de/examples/CoCoML-Class-Diagram.specif.zip" target="_blank">SpecIF file</a> ... isn't it much cleaner than an XMI file?
-- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/9_DOCX/CoCoML-Class-Diagram.docx" target="_blank">WORD(R) file</a>.
+- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/Class_Diagram/9_DOCX/CoCoML-Class-Diagram.docx" target="_blank">WORD(R) file</a>.
 - Finally, here is an alpha-release of the <a href="https://specif.de/apps-alpha/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files. _(Please note that only the UML class diagram, SysML Block Definition Diagram and SysML Internal Block Diagram are translated as of now. The alpha release will be updated from time to time and can have breaking changes. Please open an <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/issues" target="_blank">issue ticket</a>, if you find unexpected or erroneous behavior.)_
 
 #### Transform further to OWL/RDF
@@ -108,11 +108,11 @@ _Figure: UML Class Diagram using ontology terms_
 _Figure: SpecIF Statements of element Heat_Pump on UML Class Diagram using ontology terms_
 
 Examining the files and rigorously reviewing the approach is greatly appreciated:
-- The Cameo model file <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/1_Source/CoCoML-Class-Diagram-with-Stereotypes.mdzip" target="_blank">CoCoML Class-Diagram using ontology terms</a>,
+- The Cameo model file <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/tree/main/Class_Diagram/1_Source/CoCoML-Class-Diagram-with-Stereotypes.mdzip" target="_blank">CoCoML Class-Diagram using ontology terms</a>,
 - the example <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram-with-Stereotypes.specif.zip" target="_blank">UML Class Diagram</a> transformed to SpecIF,
 - the <a href="https://specif.de/apps/edit#import=../examples/CoCoML-Class-Diagram-with-Stereotypes.specif.zip;view=statements;project=eee_1045467100313_135436_1;node=N-8258538652" target="_blank">relations of 'Heat_Pump'</a>, 
 - the corresponding <a href="https://specif.de/examples/CoCoML-Class-Diagram-with-Stereotypes.specif.zip" target="_blank">SpecIF file</a>
-- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/9_DOCX/CoCoML-Class-Diagram-with-Stereotypes.docx" target="_blank">WORD(R) file</a>.
+- ... and the generated <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/blob/main/Class_Diagram/9_DOCX/CoCoML-Class-Diagram-with-Stereotypes.docx" target="_blank">WORD(R) file</a>.
 - Finally, here is an alpha-release of the <a href="https://specif.de/apps-alpha/edit.html" target="_blank">SpecIF Model-Integrator and Editor</a> to use it with your own Cameo *.mdzip files. _(Please note that only the UML class diagram, SysML Block Definition Diagram and SysML Internal Block Diagram are translated as of now. The alpha release will be updated from time to time and can have breaking changes. Please open an <a href="https://github.com/GfSE/CoCoML-Verification-and-Validation/issues" target="_blank">issue ticket</a>, if you find unexpected or erroneous behavior.)_
 
 #### Transform further to OWL/RDF
