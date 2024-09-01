@@ -16,7 +16,8 @@ SpecIF represents the visible, i.e. the diagrams and the text, as well as the se
 
 ## Literature
 
-1. Home: <a href="http://specif.de/en/" target="_blank">Specification Integration Facility (SpecIF)</a>.
+1. Home: <a href="http://specif.de/" target="_blank">Specification Integration Facility (SpecIF)</a>.
 1. Github: <a href="https://github.com/GfSE/SpecIF" target="_blank">GfSE/SpecIF</a>.
+1. Example: <a href="./files/literature/TdSE-2021%20Dungern%20-%20Integrate%20BPMN%20and%20Archimate%20Models%20using%20SpecIF.pdf" target="_blank">Integrate BPMN and Archimate Models using SpecIF</a>. TdSE Tag des Systems Engineering der GfSE, 2021
 
 
