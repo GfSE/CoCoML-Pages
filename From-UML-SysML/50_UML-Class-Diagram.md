@@ -93,9 +93,15 @@ Adding meaning to associations is simpler:
 | ---: | :--- | :--- | :--- | :--- | :--- |
 | uml:Association | oslc_rm:satisfies | oslc_rm:satisfies |  | satisfies | _oslc_rm:satisfies_ is an ontology term |
 
-This is a choice to discuss: <a href="https://github.com/GfSE/CoCoML-Pages/discussions/6" target="_blank">Any issues or ideas?</a>
+An alternative (probably better) way is to define stereotypes for the _uml:Association_ similarly to _sysml:Allocate_.
 
-To summarize: There is a defined set of UML elements and a defined set of ontology terms to create a model with exact semantics. 
+How to add meaning to weakly defined elements is a choice to discuss: <a href="https://github.com/GfSE/CoCoML-Pages/discussions/6" target="_blank">Any issues or ideas?</a>
+
+Another topic to <a href="https://github.com/GfSE/CoCoML-Pages/discussions/5" target="_blank">discuss</a> is _class_ vs. _instance_:
+- _Heat_Pump_ is obviously an instance of the system model representing a concrete device. However an _uml:Class_ is used. (The same issue arises, when a _sysml:Block_ is used, later on ...).
+- At the same time _Heat_Pump_ represents a series of identical heat pumps in the real world, so it can be considered to describe a class of real world devices.
+
+To summarize: There is a defined set of UML elements and a defined set of ontology terms to create a clear-cut model with exact semantics. 
 It is claimed that this is a formal subset of UML, which must be proven by creating an equivalent EBNF representation or DSL, for example.
 
 ### Example
