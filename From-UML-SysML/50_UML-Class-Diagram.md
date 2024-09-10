@@ -38,7 +38,8 @@ The following UML elements are selected for transformation:
 
 A directed association in UML means that only one side knows (can navigate to) the other. In SpecIF like RDF every association is a statement with subject, predicate and object. When translating a UML/SysML class diagram to SpecIF and further on to OWL/RDF:
 - In case of a composition and aggregation, the class with the rhombus is the subject and any arrow is ignored: It doesn't matter whether there is or isn't an arrowhead on either side. 
-- In case of an association, the arrow is interpreted as the direction according to RDF. Thus, the arrow póints from subject to object. UML associations with zero or two arrow-heads will get an 'undirected' flag in SpecIF.
+- In case of an association, the arrow is interpreted as the direction according to RDF. Thus, the arrow póints from subject to object. UML associations with zero or two arrow-heads will become an 'undirected' relation in RDF. 
+- _We are well aware that this is changing the original UML semantics. The idea is to use existing features to create a formally sound model_.
 
 ### Example
 

@@ -35,7 +35,7 @@ This is content inside a `<details>` dropdown.
 ## Limit the Scope
 
 UML has been devised to specify software products. It is also used to generate software and thus offers many language features towards that end.
-SysML is a UML Profile and as such shares many characteristics.
+SysML v1 is a UML Profile and as such shares many characteristics.
 However, much less detail is needed to communicate the overarching concept of a system. 
 So, the first step is to select the UML and SysML elements to use for that purpose. 
 
@@ -68,7 +68,11 @@ While there have been numerous publications on UML to OWL/RDF transformation (se
 there has been little practical application to our knowledge. The mappings described in 
 <a href="https://www.omg.org/spec/MOF2RDF/" target="_blank">OMG: MOF to RDF Mapping (MOF2RDF)</a> and
 <a href="https://henrietteharmse.com/wp-content/uploads/2017/11/uml-class-diagram-to-owl-and-sroiq-reference.pdf" target="_blank">Harmse: UML Class Diagram to OWL and SROIQ Reference</a>
-are most promising and will be investigated with priority.
+are most promising. 
+
+Another approach is to use SysML v2 or a language subset. 
+To date there is no mapping of SysML v2 to OWL/RDF according to authoritative members of the submission group.
+This track will be investigated, first.
 
 <a href="https://github.com/GfSE/CoCoML-Pages/discussions/4" target="_blank">Any questions or ideas?</a>
 
@@ -114,7 +118,7 @@ Let us join forces:
 We will establish a 3-head technical committee to summarize the discussions and to take wise decisions.
 The decision guideline will be consistency first, conciseness second. So-called "design by committee" incorporating any and every proposal shall be avoided.
 
-Just now, in July 2024, we are at the very beginning. But we are sure that with your help and a joint effort we will succeed.
+Just now, in September 2024, we are at the very beginning. But we are sure that with your help and a joint effort we will succeed.
 
 ## Contact
 - Dr.-Ing. Oskar von Dungern via <a href="https://github.com/odungern" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/odungern/" target="_blank">linkedIn</a> or [e-mail](mailto:oskar.dungern@gfse.org).
