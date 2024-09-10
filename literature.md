@@ -20,6 +20,7 @@ nav_order: 970
 1. OMG: <a href="https://www.omg.org/spec/MOF2RDF/" target="_blank">MOF to RDF Mapping (MOF2RDF)</a>
 1. FMC Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>
 1. Knöpfel, Andreas; Gröne, Bernhard; Tabeling, Peter: <a href="https://www.wiley.com/en-ie/Fundamental+Modeling+Concepts%3A+Effective+Communication+of+IT+Systems-p-9780470027103" target="_blank">Fundamental Modeling Concepts: Effective Communication of IT Systems</a>, Wiley 2006.
+1. Kent, Stuart; Evans, Andy; Rumpe, Bernhard: <a href="https://ris.utwente.nl/ws/portalfiles/portal/6140830/Kent_Evans_Rumpe_1999.pdf" target="_blank">UML Semantics FAQ</a>
 1. Weilkiens, Tim: <a href="https://dpunkt.de/produkt/systems-engineering-mit-sysml-uml/" target="_blank">Systems Engineering mit SysML/UML</a>, dpunkt.verlag, 2014, ISBN Print: 978-3-86490-091-4
 1. Weilkiens, Tim: <a href="https://mbse4u.com/sysmod/" target="_blank">SYSMOD – Pragmatic MBSE with SysML</a>, MBSE4U Booklet Series
 1. Alt, Oliver: <a href="https://www.hanser-fachbuch.de/fachbuch/artikel/9783446431270" target="_blank">Modellbasierte Systementwicklung mit SysML</a>, Hanser Verlag, 2012, ISBN Print 978-3-446-43127-0
