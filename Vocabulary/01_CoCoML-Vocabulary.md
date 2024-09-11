@@ -18,7 +18,7 @@ Of course, established terms shall be re-used whenever possible, for example fro
 
 <a href="https://github.com/GfSE/CoCoML-Pages/discussions/6" target="_blank">Any questions or ideas?</a>
 
-| Concept | Term Name | Type of Term | Description |
+| Concept | Term | Type of Term | Description |
 | :--- | :--- | :--- | :--- |
 | Model Diagram | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-CVAvZ6kJv8gOO8VxKdOz985VoPw" target="_blank">uml:Diagram</a> | Entity |  |
 | Model Diagram | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-rtsxeVw90JsJmIPM9LSO7Z9cE1D" target="_blank">SpecIF:View</a> | Entity | Is a normalizing synonym of _uml:Diagram_. |
@@ -33,6 +33,7 @@ Of course, established terms shall be re-used whenever possible, for example fro
 | Logical (Element) | RFLP:Logical | Entity |  |
 | Physical (Element) | RFLP:Physical | Entity |  |
 | Composition | <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/hasPart/" target="_blank">dcterms:hasPart</a> | Relation | This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of. |
+| Aggregation | <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/hasPart/" target="_blank">dcterms:hasPart</a> | Relation | This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of.<br/>Most practitioners don't make a difference between Composition and Aggregation and therefore it is proposed to use _hasPart_ in both cases. |
 | Occurence | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-KySdnxpGEFIs3FWCaOlzbpLVEq4" target="_blank">SpecIF:shows</a> | Relation |  |
 | Satisfaction | <a href="https://specif.de/apps/edit#import=../v1.1/Ontology.specif;view=doc;project=P-SpecIF-Ontology;node=N-YShAhKHuxcyBV85xnVLD1iXE53o" target="_blank">oslc_rm:satisfy</a> | Relation |  |
 | Title | <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/" target="_blank">dcterms:title</a> | Property | A name given to the resource. |
