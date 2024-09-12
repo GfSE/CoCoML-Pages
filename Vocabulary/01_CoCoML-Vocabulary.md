@@ -1,7 +1,7 @@
 ---
 title: "CoCoML Vocabulary"
 layout: default
-nav_order: 03
+nav_order: 800
 ---
 
 # CoCoML - Controlled Vocabulary
