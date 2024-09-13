@@ -11,7 +11,7 @@ nav_order: 0
 
 A concise and consistent language for modeling (mechatronic) systems and software: 
 - Communicate the structure and behavior between the participants in its lifecycle;
-- Bridge the gap between (engineering) disciplines and organizations.
+- Create a common context for artifacts created and consumed by participating (engineering) disciplines and organizations.
 
 UML/SysML offers a plethora of possibilities, is semantically vague to a certain extent and thus cannot be mapped genuinely to any other technical realm. 
 CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF and perhaps other formats (to be discussed). 
@@ -58,11 +58,12 @@ Second, there is interesting innovation in the context of knowledge-graphs and r
 to generate such data from an intermediate format.
 Finally, it is a fairly common and well proven approach to separate transformation in pre- and post-processing.
 
-<img src="./assets/images/CoCoML-Development.svg" alt="" />
+<img src="./assets/images/CoCoML-Development.svg" alt="Transform UML/SysML to OWL/RDF" />
 
 It is proposed to use the Specification Integration Facility ([SpecIF](https://specif.de)) as intermediate format.
 It is a generic and simple information model to build a Knowledge Graph (aka Property Graph) with typed nodes, edges and properties.
-[Schema and constraints](https://github.com/GfSE/SpecIF-Schema) are available to assure data quality.
+[Schema and constraints](https://github.com/GfSE/SpecIF-Schema) are available to assure syntactical data quality. 
+However, so far there is no checking at the semantic level.
 
 While there have been numerous publications on UML to OWL/RDF transformation (see <a href="./literature" target="_blank">literature</a>), 
 there has been little practical application to our knowledge. The mappings described in 
@@ -70,7 +71,7 @@ there has been little practical application to our knowledge. The mappings descr
 <a href="https://henrietteharmse.com/wp-content/uploads/2017/11/uml-class-diagram-to-owl-and-sroiq-reference.pdf" target="_blank">Harmse: UML Class Diagram to OWL and SROIQ Reference</a>
 are most promising. 
 
-Another approach is to use SysML v2 or a language subset. 
+Another approach is to use a subset of SysML v2 to define the CoCoML. 
 To date there is no mapping of SysML v2 to OWL/RDF according to authoritative members of the submission group.
 This track will be investigated, first.
 
