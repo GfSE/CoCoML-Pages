@@ -13,7 +13,7 @@ A concise and consistent language for modeling (mechatronic) systems and softwar
 - Communicate the structure and behavior between the participants in its lifecycle;
 - Create a common context for artifacts created and consumed by participating (engineering) disciplines and organizations.
 
-UML/SysML offers a plethora of possibilities, is semantically vague to a certain extent and thus cannot be mapped genuinely to any other technical realm. 
+UML/SysML offers a plethora of possibilities, is considered semantically vague and thus cannot be mapped genuinely to any other technical realm. 
 CoCoML shall define a practical and formally well defined subset of UML/SysML for bidirectional and lossless mapping with OWL/RDF and perhaps other formats (to be discussed). 
 Other notations and languages such as FMC, BPMN and ArchiMate shall be considered in future.
 
@@ -42,8 +42,10 @@ So, the first step is to select the UML and SysML elements to use for that purpo
 Three categories are proposed:
 1. Well defined element to transform, e.g. _uml:Class_, _uml:Generalization_ or _uml:Composition_.
 2. Weakly defined element to transform, where *the name* from a controlled vocabulary defines the meaning. 
-For example, an association with type _uml:Association_ and a name _bpmn:dataInputAssociation_ 
-is understood as a reading relationship (between a task and a data object).
+For example, an association with type _uml:Association_ and a name _sysml:satisfies_ 
+is understood as a relationship between a function or component and a requirement with a well defined meaning.
+(Better than specifying meaning of a relation with a _name_ is to assign a _stereotype_ such as «sysml:Allocate». 
+But how to define such stereotypes for CoCoML?)
 3. Element not to transform. If used, a warning shall be issued. 
 
 <a href="https://github.com/GfSE/CoCoML-Pages/discussions/7" target="_blank">Any questions or ideas?</a>
@@ -74,6 +76,8 @@ are most promising.
 Another approach is to use a subset of SysML v2 to define the CoCoML. 
 To date there is no mapping of SysML v2 to OWL/RDF according to authoritative members of the submission group.
 This track will be investigated, first.
+
+There is a number of details to decide, for example which flavor of OWL to use (where anything beyond DL is considered impractical).
 
 <a href="https://github.com/GfSE/CoCoML-Pages/discussions/4" target="_blank">Any questions or ideas?</a>
 
