@@ -35,7 +35,7 @@ The fundamental model-element classes are not shown. The shown entities are clas
 | Fundamental class | Metamodel entity |
 | ---: | :--- |
 | FMC:Actor | FMC:Agent, FMC:Operation |
-| FMC:State | FMC:Location, FMC:Channel, FMC:Storage |
+| FMC:State | FMC:Location, FMC:Channel, FMC:Storage, FMC:Value |
 | FMC:Event | FMC:Event, FMC:Point_in_Time |
 
 ## Literature
